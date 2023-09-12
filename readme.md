@@ -49,6 +49,12 @@ however you can choose No (page router).
 
 ### Creating directories
 Unlike React.js, Next.js use file-based routing. It means that we no longer have to define each router, import router, or wrap the main component with router. Instead all routes are determined by how you strucuture your folders.
+You should have App folders, and layout.tsx and page.tsx files inside after installation. 
+
+### Run the development server
+- Run `npm run dev` to start the server
+- Visit `http://localhost:3000` to view
+- Edit app/page.tsx file and save to see the update 
 
 ## Creating a Next.js App
 ...
