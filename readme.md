@@ -21,7 +21,7 @@ NextJs is react framework for building fullstack application. Basically we use R
   
 - **Routing:** File-system based routing supports layout, nested routing, error handling, loading states. 
 
-- **API Routes:** You can create serverless API routes within your Next.js application, simplifying backend development.
+- **API Routes:** create serverless API routes within your Next.js application, simplifying backend development.
 
 - **CSS Support:** Next.js offers various options for styling, including CSS Modules, Styled Components, tailwind and CSS-in-JS.
 
@@ -30,6 +30,9 @@ NextJs is react framework for building fullstack application. Basically we use R
 ### Installation 
 Run following command to set up everything: 
 ` npx create-next-app@latest ` 
+
+or if you are already on the project folder 
+` npx create-next-app@latest .` 
 After you run that command you'll see following prompts: 
 ```
 √ What is your project named? ... first-app
@@ -41,8 +44,11 @@ After you run that command you'll see following prompts:
 √ Would you like to customize the default import alias? ... No / Yes
 
 ```
-You can choose the option according your preference, in this tutorial I did not use typescript, ESLint. I chose App router for this tutorial as this has additional feature, 
+You can choose the option according your preference, in this tutorial I used typescript. I chose App router for this tutorial as this has additional feature, 
 however you can choose No (page router). 
+
+### Creating directories
+Unlike React.js, Next.js use file-based routing. It means that we no longer have to define each router, import router, or wrap the main component with router. Instead all routes are determined by how you strucuture your folders.
 
 ## Creating a Next.js App
 ...
