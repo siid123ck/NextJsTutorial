@@ -54,7 +54,58 @@ You should have App folders, and layout.tsx and page.tsx files inside after inst
 ### Run the development server
 - Run `npm run dev` to start the server
 - Visit `http://localhost:3000` to view
-- Edit app/page.tsx file and save to see the update 
+- Edit app/page.tsx file and save to see the update
+
+## Project Structure
+### Top lavel folders
+- `app`: for App router 
+- `page` : for Page router
+- `public`: for storing static assets 
+- `src`: optional aplication source folder
+
+### Top lavel files 
+- `next.config.js`: Configuration file for Next.js
+- `package.json`: Project dependencies and scripts
+- `instrumentation.ts`: OpenTelemetry and Instrumentation file
+- `middleware.ts`: Next.js request middleware
+- `.env`: Environment variables
+- `.env.local`: Local environment variables
+- `.env.production`: Production environment variables
+- `.env.development`: Development environment variables
+- `.eslintrc.json`: Configuration file for ESLint
+- `.gitignore`: Git files and folders to ignore
+- `next-env.d.ts`: TypeScript declaration file for Next.js
+- `tsconfig.json`: Configuration file for TypeScript
+- `jsconfig.json`: Configuration file for JavaScript
+- `postcss.config.js`: Configuration file for Tailwind CSS
+
+### Routing files 
+- `layout`: Layout components 
+- `page`: Page components 
+- `loading`: Loading UI components 
+- `not-found`: Not found UI components 
+- `error`: Error UI components 
+- `global-error`: Global error UI components 
+- `route`: API endpoint components 
+- `template`: Re-rendered layout components 
+- `default`: Parallel route fallback page components 
+
+### Nested Route
+- `folder`:Route segment
+- `folder/folder`: Nested route segment
+
+### Dynamic Route
+- `[folder]`: Dynamic Route segment
+- `[...folder]`: catch all routes route segment
+- `[[...folder]]`: optional catch all routes route segment
+
+### Page routing convention
+- `_app`: Custom App components 
+- `_document`: Custom Document components 
+- `_error`: Custom Error Page components 
+- `404`: 404 Error Page components 
+- `500`: 500 Error Page components
+- `index`: Home page 
 
 ## Creating a Next.js App
 ...
