@@ -216,11 +216,3 @@ Route handler allow you to create custom request handlers for a given route usin
 ### Middleware 
 Middleware allows you to run code before request is completed. Based on incoming request, you can modify the response by re-writing, redirecting, or responding directly. 
 
-## Styling
-...
-
-## Deployment
-...
-
-## Conclusion
-...
