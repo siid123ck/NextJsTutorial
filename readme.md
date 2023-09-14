@@ -216,3 +216,19 @@ Route handler allow you to create custom request handlers for a given route usin
 ### Middleware 
 Middleware allows you to run code before request is completed. Based on incoming request, you can modify the response by re-writing, redirecting, or responding directly. 
 
+## Data detching 
+### Fetching, caching and revalidating
+### Data fetching pattern
+### Forms and mutations
+
+## Rendering 
+### Server component 
+### Client component 
+### Composition pattern 
+### Edges and nodejs runtime 
+
+## Caching 
+## Optmizing 
+## Deploying 
+## Upgrading 
+
