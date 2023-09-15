@@ -111,7 +111,7 @@ You should have App folders, and layout.tsx and page.tsx files inside after inst
 ...
 
 ## Routing
-### Defining routes
+### Defining route
 Next.js use file-system router, so folders define the router in next.js application. For example, if you have app/dashboard/profile/page.tsx, the url of the route would be http://localhost:3000/dashboard/profile. We can use special file convention to create UI as discussed in previous chapter. 
 
 ### Page and layout
